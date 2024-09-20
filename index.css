@@ -29,26 +29,41 @@ table{
 .name{
     vertical-align: center;
 }
-.blocks{
-    margin: 2rem auto;
-    background-color: #fff0d1;
-    -moz-box-shadow: 0 0 0 3px #ccc;
-    -webkit-box-shadow: 0 0 0 3px #ccc;
-    box-shadow: 0 0 3px #795757;
-    width: 500px;
-    text-align: left;
-    padding-top:0.3rem;
-    padding-bottom:0.3rem;
-    border-radius: 30px;
-}
+
 .content{
     text-align: center;
     width: 100%;
 }
-h4{
-    margin: 0.8rem;
-    margin-top: 3%;
-}
-p{
-    margin: 1rem;
-}
+.topnav {
+    background-color: #523a3a;
+    overflow: hidden;
+    text-align: center;
+    height: 2rem;
+    border-radius: 10px;
+  }
+  
+  .topnav a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 10px;
+    vertical-align:middle;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 10px;
+  }
+  
+
+  .topnav a.active {
+    background-color: #b17777;
+    color: white;    
+    border-radius: 10px;
+
+  }
+  
