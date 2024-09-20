@@ -1,0 +1,30 @@
+.header{
+    text-align: center;
+    margin-top: 50px;
+}
+body{
+    background-color: #fff0d1;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.title{
+    text-align: center;
+
+}
+img{
+    border: 4px solid #795757;
+    border-radius: 150px;
+
+}
+table{
+    margin:0 auto;
+    border-spacing: 50px;
+}
+
+.occupation{
+    vertical-align: top;
+    margin: 0;
+    display: flex;
+}
+.name{
+    vertical-align: center;
+}
