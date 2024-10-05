@@ -81,7 +81,8 @@ table{
   }
 
   @media screen and (max-width: 650px) {
-    .topnav a:not(:first-child) {display: none;}
+    .topnav a{display: none;}
+    .topnav a.active{display: block;}
     .topnav a.icon {
       float: right;
       display: block;
@@ -110,4 +111,8 @@ table{
       display: block;
       text-align: left;
     }
+  }
+
+  #githubicon{
+    width: 50px;
   }
