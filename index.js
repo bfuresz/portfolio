@@ -19,7 +19,7 @@ function myFunction() {
         Portfólió - egyetemi projekt
        </p>
        <p>
-        Inventor alkatrész modellezés - egyetemi projekt
+        Inventor alkatrész modellezés - egyetemi projekt (folyamatban)
        </p>`;
   }
 
